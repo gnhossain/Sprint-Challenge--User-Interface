@@ -153,3 +153,117 @@ header nav{
     margin:20px 0;
     align-items:flex-end;
   }
+  header nav a{
+    text-decoration:none;
+    color:black;
+    font-family:Roboto;
+    display:flex;
+  }
+
+  .box:nth-child(1){
+    background:teal !important;
+  }
+  
+  .box:nth-child(2){
+    background:gold!important;
+  }
+  
+  .box:nth-child(3){
+    background:cadetblue !important;
+  }
+  
+  .box:nth-child(4){
+    background:coral !important;
+  }
+  
+  .box:nth-child(5){
+    background:crimson!important;
+  }
+  
+  .box:nth-child(6){
+    background:forestgreen !important;
+  }
+  
+  .box:nth-child(7){
+    background:darkorchid !important;
+  }
+  
+  .box:nth-child(8){
+    background:hotpink !important;
+  }
+  
+  .box:nth-child(9){
+    background:indigo !important;
+  }
+  
+  .box:nth-child(10){
+    background:dodgerblue !important;
+  }
+  
+  .top{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    border-bottom:1px dashed black;
+    margin:20px 0;
+    padding:20px;
+  }
+  
+  .main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:space-between;
+  }
+  
+  .main .row{
+    display:flex;
+  }
+  
+  .main .text{
+    border-bottom:1px dashed black;
+    padding:20px 0;
+    margin:10px 20px 10px 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:500px;
+  }
+
+  button{
+    font-size:20px;
+    font-family:Roboto;
+    background:white;
+    border-radius:10px;
+    border:2px solid black;
+    width:150px;
+  }
+  
+  .bottom{
+    margin:30px 0;
+    
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:auto auto 20px 0;
+  }
+  
+  
