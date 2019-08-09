@@ -144,3 +144,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header{
+    margin:20px 0;
+}
+header nav{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 0;
+    align-items:flex-end;
+  }
